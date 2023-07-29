@@ -1,4 +1,35 @@
-.hello {
-    color: rgb(202, 21, 45);
-}
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 500px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
 
+  h1 {
+    text-align: center;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+
+  .list-group-item {
+    position: relative;
+  }
+
+  .list-group-item button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .btn-del {
+    margin-right: 65px;
+  }
