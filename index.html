@@ -7,66 +7,51 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="app.js"></script>
     <title>To Do App</title>
 </head>
 
-<body>
-<main>
-    <div class="container mt-5">
-        <h1 class="mb-4">ToDo APP</h1>
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" id="task-input" placeholder="Enter your task">
-            <div class="input-group-append">
-                <button class="btn btn-primary" type="button">Add Task</button>
-            </div>
-        </div>
-        <ol id="taskList" class="list-group list-group-numbered">
 
-            <li class="list-group-item">
-                Lorem ipsum dolor sit amet.
-                <div class="float-right">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary btn-del px-2" type="button">Delete</button>
-                        <button class="btn btn-outline-secondary btn-edit px-3" type="button">Edit</button>
-                    </div>
+<body>
+    <main>
+        <div class="container mt-5">
+            <h1 class="mb-4">ToDo APP</h1>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="task-input" placeholder="Enter your task">
+                <div class="input-group-append">
+                    <button class="btn btn-primary btn-add" type="button">Add Task</button>
                 </div>
-            </li>
-            <li class="list-group-item">
-                Lorem ipsum dolor sit amet.
-                <div class="float-right">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary btn-del px-2" type="button">Delete</button>
-                        <button class="btn btn-outline-secondary btn-edit px-3" type="button">Edit</button>
+            </div>
+            <ol id="taskList" class="list-group list-group-numbered">
+
+                <li class="list-group-item">
+                    Lorem ipsum dolor sit amet.
+                    <div class="float-right">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary btn-del px-2" type="button">Delete</button>
+                            <button class="btn btn-outline-secondary btn-edit px-3" type="button">Edit</button>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                Lorem ipsum dolor sit amet.
-                <div class="float-right">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary btn-del px-2" type="button">Delete</button>
-                        <button class="btn btn-outline-secondary btn-edit px-3" type="button">Edit</button>
+                </li>
+                <li class="list-group-item">
+                    Lorem ipsum dolor sit amet.
+                    <div class="float-right">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary btn-del px-2" type="button">Delete</button>
+                            <button class="btn btn-outline-secondary btn-edit px-3" type="button">Edit</button>
+                        </div>
                     </div>
+                </li>
+            </ol>
+            <div class="input-group my-3">
+                <input type="text" class="form-control" id="task-edit" placeholder="Edit your task">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">Edit Task</button>
                 </div>
-            </li>
-            <li class="list-group-item">
-                Lorem ipsum dolor sit amet.
-                <div class="float-right">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary btn-del px-2" type="button">Delete</button>
-                        <button class="btn btn-outline-secondary btn-edit px-3" type="button">Edit</button>
-                    </div>
-                </div>
-            </li>
-        </ol>
-        <div class="input-group my-3">
-            <input type="text" class="form-control" id="task-edit" placeholder="Edit your task">
-            <div class="input-group-append">
-                <button class="btn btn-primary" type="button">Edit Task</button>
             </div>
         </div>
-    </div>
-</main>
+    </main>
 
 </body>
 
