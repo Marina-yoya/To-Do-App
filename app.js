@@ -18,7 +18,16 @@ $(document).ready(function () {
         li.append(editBtn)
 
         $("#taskList").append(li);
+
+        
+        $(".btn-del").click(function(e){
+            const li = e.target.parentNode;
+            li.remove();
+        });
+        
+        
     });
+    
 
 
 
